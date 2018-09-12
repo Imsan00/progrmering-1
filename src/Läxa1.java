@@ -5,12 +5,25 @@ import com.sun.corba.se.spi.orbutil.fsm.Input;
 public class Läxa1 {
 	public static void main(String[] args) {
 		Scanner Input = new Scanner(System.in);
-		System.out.println("Vad heter du?");
-		
+		System.out.println("Vad heter du?");	
 		String name = Input.nextLine();
 		
-		System.out.println("age?");
-		
+		System.out.println("age?");	
 		String age = Input.nextLine();
+		
+		System.out.println("Addres");	
+		String Addres = Input.nextLine();
+		
+		System.out.println("postnummer");
+		String POstnummer = Input.nextLine();
+		
+		System.out.println("ort?");
+		String ort = Input.nextLine();
+		
+		System.out.println("Telefonnummer?");
+		String Telefon = Input.nextLine();
+		
+		
 	}
+	
 }

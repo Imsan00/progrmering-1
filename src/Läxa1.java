@@ -8,5 +8,9 @@ public class Läxa1 {
 		System.out.println("Vad heter du?");
 		
 		String name = Input.nextLine();
+		
+		System.out.println("age?");
+		
+		String age = Input.nextLine();
 	}
 }
